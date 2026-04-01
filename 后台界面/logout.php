@@ -1,12 +1,13 @@
-<?php 
+<?php
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
 
-session_start();
-
-$_SESSION=array();
+$_SESSION = array();
 
 session_destroy();
 
-setcookie('PHPSESSID','',time()-3600,'/');
+setcookie('PHPSESSID', '', time() - 3600, '/');
 
-echo '<script>location="../home/login.html"</script>';
+echo '<script>location="../home/login_page.php"</script>';
 ?>

@@ -26,6 +26,6 @@ include 'lock.php';
 	<h2>welcome to xian yun ye he !</h2>	
 	<img src="public/img/logo.png" width="100%">	
 	<p>作者:</p>
-	<p>|-姜明婧</p>
+	<p>|-jiangmojian</p>
 </body>
 </html>

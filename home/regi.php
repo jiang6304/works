@@ -46,7 +46,7 @@ if($passwd == $repasswd){
 
     if ($stmt1->execute()) {
         echo "<script>alert('注册成功'); </script>";
-        echo "<script>location='login.html'</script>";
+        echo "<script>location='login_page.php'</script>";
     } else {
         echo "注册失败: " . $stmt1->error;
     }

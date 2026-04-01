@@ -1,108 +1,137 @@
+/* 基础样式重置 */
 * {
-	margin: 0;
-	padding: 0
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 em,
 i {
-	font-style: normal;
+    font-style: normal;
 }
 
 img {
-	border: 0;
-	/*ie6*/
-	vertical-align: middle;
+    border: 0;
+    vertical-align: middle;
 }
 
 button,
 input {
-	font-family: 'Microsoft YaHei', 'Heiti SC', tahoma, arial, 'Hiragino Sans GB', \\5B8B\4F53, sans-serif;
+    font-family: 'Microsoft YaHei', 'Heiti SC', tahoma, arial, 'Hiragino Sans GB', \\5B8B\4F53, sans-serif;
     outline: none;
 }
 
 .hide,
 .none {
-	display: none;
+    display: none;
 }
+
+/* 导航栏激活状态 */
 .active {
-	background-color: #4a8484;}
+    background-color: #008B8B !important;
+}
+
+/* 浮动布局 */
 .fl,
 .fr {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
 }
 
 .fl {
-	float: left;
+    float: left;
 }
 
 .fr {
-	float: right;
+    float: right;
 }
 
+/* 导航栏容器 */
+.shortcut {
+    height: 50px;
+    background: rgba(95, 158, 160, 0.9);
+    line-height: 50px;
+}
+
+/* 导航栏列表 */
 ul {
-	height: 40px;
-	list-style-type: none;
-	margin: 0;
+    height: 50px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: stretch;
 }
 
+/* 导航栏列表项 */
 li {
-	float: left;
-	border-radius: 5px;
-	text-align: center;
+    float: left;
+    text-align: center;
+    display: flex;
+    align-items: stretch;
+    height: 50px;
 }
 
 li:last-child {
-	border-right: none;
+    border-right: none;
 }
 
+/* 导航栏链接 */
 li a {
-	display: block;
-	width: 76px;
-	color: white;
-	text-align: center;
-	padding: 9px 10px 10px 10px;
-	text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 76px;
+    height: 50px;
+    padding: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Logo链接特殊处理 */
+li a.logo-link {
+    width: auto;
+    min-width: auto;
+    padding: 0 10px;
+}
+
+li a.logo-link img {
+    height: 40px;
+    width: auto;
+    max-height: 40px;
 }
 
 li a:hover {
-	background-color: white;
+    background-color: white;
+    color: #008B8B;
+}
+
+li a.active {
+    background-color: #008B8B;
+    color: white;
+}
+
+li a.active:hover {
+    background-color: white;
+    color: #008B8B;
 }
 
 .center {
-	align-content: center;
+    align-content: center;
 }
 
 .style_grenn {
-	color: rgba( 95, 158, 160, 0.8)
+    color: rgba(95, 158, 160, 0.8)
 }
 
 .w {
-	width: 1200px;
-	margin: 0 auto;
-}
-
-li {
-	list-style: none;
-}
-
-a {
-	color: white;
-	text-decoration: none;
-	height: 100%;
-}
-
-a:hover {
-	color:#008B8B;
-}
-
-.shortcut {
-	height: 40px;
-	background: rgba(95, 158, 160, 0.8);
-}
-
-.shortcut li {
-	float: left;
+    width: 1200px;
+    margin: 0 auto;
 }
