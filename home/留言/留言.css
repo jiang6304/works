@@ -1,0 +1,135 @@
+.btn {
+    width: 110px;
+    height: 60px;
+    margin-top:40px ;
+    background-color: rgb(95, 158, 160, 0.5);
+    outline: none;
+    color: #2F4F4F;
+    letter-spacing: 2px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #2F4F4F;
+    color: #f6f6f6;
+    transition: background-color 0.2s ease;
+}
+
+.middle {
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+}
+
+.comment2 {
+    float: left;
+    width: 240px;
+    height: 200px;
+    margin: 20px;
+    text-align: center;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.comment1 {
+    float: left;
+    width: 884px;
+    min-height: 900px;
+    margin: 15px;
+    text-align: center;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.text {
+    width: 320px;
+}
+
+.text {
+    float: left;
+    border: 2px solid #008B8B;
+    border-radius: 8px;
+    color: #2F4F4F;
+}
+
+.profile {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.post {
+    width: 900px;
+    margin: 15px;
+    /*前面的是上下,后是左右*/
+    background: rgba(255, 255, 255, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+textarea::placeholder {
+    color: rgb(72, 152, 139);
+    font-size: 16px;
+}
+
+.userlogo {
+    margin-right: 20px;
+    float: left;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0.2, 0.2);
+    height: 100%;
+}
+
+.messege {
+    margin: 20px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    color: #1e5d5d;
+}
+h5{
+    padding-top: 4px;
+    font-size: 15px;
+    color: #0000007a;
+    text-align: left;
+}
+h4{
+    font-size: 17px;
+    margin-left: 43px;
+    height: auto;  
+    word-wrap:break-word;  
+    word-break:break-all;  
+    overflow: hidden;  
+    text-align: left;
+}
+h6{
+    font-size: 10px;
+    margin-left: 47px;
+    color: #0000007a;
+    text-align: left;
+}
+.comment{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.user{
+    margin: 0;
+    padding: 0;
+    height: 36px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}

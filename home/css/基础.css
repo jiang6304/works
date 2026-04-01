@@ -1,0 +1,103 @@
+* {
+	margin: 0;
+	padding: 0
+}
+
+em,
+i {
+	font-style: normal;
+}
+
+img {
+	border: 0;
+	/*ie6*/
+	vertical-align: middle;
+}
+
+button,
+input {
+	font-family: 'Microsoft YaHei', 'Heiti SC', tahoma, arial, 'Hiragino Sans GB', \\5B8B\4F53, sans-serif;
+    outline: none;
+}
+.hide,
+.none {
+	display: none;
+}
+.active {
+	background-color: #4a8484;}
+.fl,
+.fr {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+.shortcut ul {
+	height: 40px;
+	list-style-type: none;
+	margin: 0;
+}
+
+.shortcut li {
+	float: left;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.shortcut li:last-child {
+	border-right: none;
+}
+
+.shortcut li a {
+	display: block;
+	width: 76px;
+	color: white;
+	text-align: center;
+	padding: 9px 10px 10px 10px;
+	text-decoration: none;
+}
+
+.shortcut li a:hover {
+	background-color: white;
+}
+
+.center {
+	align-content: center;
+}
+
+.style_grenn {
+	color: rgba( 95, 158, 160, 0.8)
+}
+
+.w {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.shortcut li {
+	list-style: none;
+}
+
+.shortcut a {
+	color: white;
+	text-decoration: none;
+	height: 100%;
+}
+
+.shortcut a:hover {
+	color:#008B8B;
+}
+
+.shortcut {
+	height: 40px;
+	background: rgba(95, 158, 160, 0.8);
+}

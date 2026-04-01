@@ -1,0 +1,474 @@
+.headera1 {
+			background-color: #F5F5F5;
+			margin: 0px;
+			padding: 0;
+			display: flex;
+			justify-content: center;
+		}
+		
+		.headera2 {
+			height: 50px;
+			background-color: rgba(95, 158, 160, 0.8);
+			display: flex;
+			justify-content: center;
+			margin-bottom: 8px;
+			position: fixed;
+			top: 0;
+			width: 100%;
+		}
+		
+		.headera21 {
+			height: 46px;
+		}
+		
+		.header2 {
+			height: 45px;
+			width: 1200px;
+		}
+		
+		.header21 {
+			height: 46px;
+			width: 1200px;
+			text-align: center;
+		}
+		
+		.header {
+			width: 1200px;
+			height: 450px;
+			background-image: url(../img/QQ图片20220324210621.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			margin: 0 auto;
+			box-shadow: 10px 10px 5px #6666;
+		}
+		
+		.headera3 {
+			height: 120px;
+			width: 1200px;
+			padding: 0;
+			border: 0;
+			margin-top: 15px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+			
+		.context2 {
+			margin: 0;
+			padding: 0;
+			border: 0;
+			width: 1200px;
+			align-items: center;
+		}
+		
+		.contexta2 {
+			width: 1200px;
+			height: 100px;
+			padding: 0;
+			border: 0;
+			margin-top: 15px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		.line {
+				height: 2px;
+				margin-bottom: 2px;
+				padding: 0;
+				align-content: center;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				border-bottom: 2px solid #2F4F4F;
+			}
+				
+		.middle1 {
+			height: 200px;
+			width: 1200px;
+			background: rgba(255, 255, 255, 0.5);
+			margin: 10px auto;
+			/*前面的是上下,后是左右*/
+		}
+		
+		.middle2 {
+			width: 1200px;
+			height: 350px;
+			margin: 10px auto;
+			/*前面的是上下,后是左右*/
+			justify-content: center;
+		}
+		
+		.middle2a {
+			width: 1200px;
+			height: 350px;
+			background: rgba(255, 255, 255, 0.6);
+			margin: 10px auto;
+			/*前面的是上下,后是左右*/
+			justify-content: center;
+		}
+		
+		.middle4 {
+			width: 1200px;
+			height: 450px;
+			margin: 10px auto;
+			/*前面的是上下,后是左右*/
+			background: rgba(255, 255, 255, 0.6);
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		
+		.middle4a {
+			width: 1200px;
+			height: 450px;
+			margin: 10px auto;
+			/*前面的是上下,后是左右*/
+			
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		
+		.middle3 {
+			width: 1200px;
+			height: 400px;
+			margin: 10px auto;
+			/*前面的是上下,后是左右*/
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		
+		.middle21 {
+			width: 1000px;
+			height: 400px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		
+		.middle211 {
+			width: 1000px;
+			height: 400px;
+		}
+		
+		.middle {
+			width: 1200px;
+			height: 150px;
+			margin: 0 auto;
+			opacity: 1;
+			/*前面的是上下,后是左右*/
+		}
+		
+		h2 {
+				color: #5F9EA0;
+				font-size: 67px;
+			}
+			
+			h2 a {
+				text-decoration: none;
+				color: aliceblue;
+			}
+			
+			h2 span {
+				transition: 0.5s;
+			}
+			
+			h2:hover span:nth-child(1) {
+				margin-right: 10px;
+			}
+			
+			h2:hover span:nth-child(2) {
+				margin-left: 30px;
+			}
+			
+			h2 span:nth-child(1)::after {
+				opacity: 0;
+				transition: 0.5s;
+			}
+			
+			h2:hover span:nth-child(1)::after {
+				content: "#国潮#";
+				opacity: 1;
+			}
+			
+			h2:hover span {
+				color: white;
+				text-shadow: 0 0 8px #008B8B, 0 0 16px #F0F8FF, 0 0 20px #F0F8FF, 0 0 40px #F0F8FF;
+			}
+		body {
+			background-image: url(../img/背景1.png);
+			background-position: center center;
+			background-size: cover;
+			background-attachment: fixed;
+			background-color: rgba(255, 255, 255, 0.7)
+		}
+		
+		.titlea {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		
+		.bottom {
+			height: 200px;
+			width: 1200px;
+			
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-top: 140px;
+		}
+		
+		.a {
+			position: relative;
+			width: 488px;
+			display: flex;
+			justify-content: space-evenly;
+		}
+		
+		.a1 {
+			position: relative;
+			width: 505px;
+			height: 383px;
+			display: flex;
+			justify-content: flex-start;
+    align-content: flex-start;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+		}
+		
+		.a11 {
+			width: 505px;
+			height: 77px;
+		}
+		
+		.b {
+			width: 300px;
+			height: 375px;
+			transition: .4s;
+			background-size: cover;
+		}
+		
+		.c {
+			height: 375px;
+			display: flex;
+			/* 纵向布局 */
+			flex-direction: column;
+			justify-content: space-between;
+		}
+		
+		.d {
+			position: relative;
+			width: 150px;
+			height: 68px;
+			right: 0;
+			transition: .5s;
+			overflow: hidden;
+		}
+		
+		.d img {
+			position: absolute;
+			width: 150px;
+			/* 小图片上移 */
+			transform: translate(0, -37px);
+			transition: .5s;
+			right: 0;
+		}
+		
+		.d.dd {
+			opacity: 0;
+			right: 125px;
+		}
+		
+		.d:hover img {
+			opacity: 0;
+			right: 125px;
+		}
+		
+		.wrap {
+			position: relative;
+			float: left;
+			margin: 0px 30px;
+			width: 330px;
+			height: 360px;
+			background-color: rgb(255, 255, 255);
+			box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+			overflow: hidden;
+			border-radius: 0 0 30px 30px;
+		}
+		
+		.box-top,
+		.box-top1,
+		.box-top3 {
+			position: relative;
+			width: 330px;
+			height: 150px;
+			display: flex;
+			justify-content: center;
+			transition: .5s;
+		}
+		
+		.box-top {
+			background-color: rgba(95, 158, 160, 0.6);
+		}
+		
+		.box-top1 {
+			background-color: rgb(173, 216, 230, 0.8);
+		}
+		
+		.box-top3 {
+			background-color: rgb(112, 128, 144, 0.6);
+		}
+		
+		.box-top::after {
+			content: '';
+			width: 40px;
+			height: 40px;
+			clip-path: polygon(50% 40%, 0 0, 100% 0);
+			background-color: rgba(95, 158, 160, 0.6);
+			position: absolute;
+			left: 50%;
+			transform: translate(-50%);
+			bottom: -38px;
+			z-index: 999;
+		}
+		
+		.image {
+			position: absolute;
+			top: 20px;
+			width: 160px;
+			height: 100px;
+			background-image: url(../img/QQ图片20220506135349.png);
+			background-size: cover;
+			border: 5px solid rgba(95, 158, 160, 0.6);
+			transition: .5s;
+		}
+		
+		.image1 {
+			position: absolute;
+			top: 20px;
+			width: 100px;
+			height: 100px;
+			background-image: url(../img/国潮logo.png);
+			background-size: cover;
+			border: 5px solid rgba(95, 158, 160, 0.8);
+			transition: .5s;
+		}
+		
+		.image3 {
+			position: absolute;
+			top: 20px;
+			width: 130px;
+			height: 100px;
+			background-image: url(../img/11111.png);
+			background-size: cover;
+			border: 5px solid rgb(112, 128, 144, 0.8);
+			transition: .5s;
+		}
+		/* -------------------------------------------- */
+		/* 下部分的两个大块 */
+		/* -------------------------------------------- */
+		
+		.box-bottom {
+			position: absolute;
+			top: 130px;
+			width: 330px;
+			height: 130px;
+			text-align: center;
+			transition: .5s;
+		}
+		
+		.box-bottom2 {
+			position: absolute;
+			top: 130px;
+			width: 280px;
+			height: 130px;
+			transition: .5s;
+		}
+		
+		.box-bottom h2 {
+			display: block;
+			margin: 70px 0 10px 0;
+			font: 800 28px 'Hobo Std';
+		}
+		
+		.box-bottom span {
+			font: 400 24px 'Giddyup Std';
+		}
+		
+		.box-bottom h2::after {
+			content: '';
+			display: block;
+			width: 200px;
+			height: 2px;
+			background-color: #2F4F4F;
+			position: absolute;
+			left: 50%;
+			transform: translate(-50%, 4px);
+		}
+		/* -------------------------------------------- */
+		/* 下部分的第二个大块 */
+		/* -------------------------------------------- */
+		
+		.box-bottom2 {
+			height: 220px;
+		}
+		
+		.box-bottom2 li {
+			margin: 25px;
+			font: 800 20px 'OCR A Std';
+			transition: .2s;
+		}
+		/* -------------------------------------------- */
+		/* 鼠标移入的效果 */
+		/* -------------------------------------------- */
+		
+		
+		.wrap:hover .box-top1 {
+			height: 50px;
+		}
+		
+		.wrap:hover .box-top {
+			height: 50px;
+		}
+		
+		.wrap:hover .box-top3 {
+			height: 50px;
+		}
+		
+		.wrap:hover .image1 {
+			width: 55px;
+			height: 35px;
+			border-width: 3px;
+			transform: translate(-100px, -19px);
+		}
+		
+		.wrap:hover .image {
+			width: 85px;
+			height: 35px;
+			border-width: 3px;
+			transform: translate(-100px, -19px);
+		}
+		
+		.wrap:hover .image3 {
+			width: 70px;
+			height: 35px;
+			border-width: 3px;
+			transform: translate(-100px, -19px);
+		}
+		
+		.wrap:hover .box-bottom {
+			top: 300px;
+		}
+		
+		.wrap:hover .box-bottom2 {
+			top: 15px;
+		}
+		
+		.box-bottom2 li:hover {
+			color: rgb(100, 160, 160)
+		}
+		
+		
