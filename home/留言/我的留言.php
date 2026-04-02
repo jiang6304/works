@@ -28,6 +28,7 @@ $rst_contact = mysqli_query($conn, $sql_contact);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../favicon.ico" />
     <title>我的留言 - 闲云野鹤手工体验馆</title>
     <link rel="stylesheet" href='../css/base.css' />
     <link rel="stylesheet" href='../css/common.css' />
