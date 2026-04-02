@@ -11,6 +11,7 @@ $rst1 = mysqli_query($conn, $sql1);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../favicon.ico" />
     <title>意向加盟 - 闲云野鹤手工体验馆</title>
     <link rel="stylesheet" href="../留言/留言.css" />
     <link rel="stylesheet" href="../css/base.css" />

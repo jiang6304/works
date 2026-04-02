@@ -36,14 +36,40 @@
     color      : #fff;
 }
 
+/* 轮播图容器样式 */
+.banner-wrapper {
+    height: 405px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-container {
+    height: 400px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 10px 10px 25px #BBBBBB;
+}
+
 /* banner区域 */
 /* 相对定位 */
 /* 宽度100% */
 /* 高度根据section区域自动适应 */
 .banner {
-	position: relative;
-    width   : 100%;
-   overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
 }
 
 /* 实现背景 */
@@ -74,16 +100,14 @@
 /* 高度为300px，整个轮播的最大高度 */
 /* margin实现居中 */
 .banner section {
-    position: relative;
-
-    width    : 100%;
+    position: absolute;
+    width: 100%;
     max-width: 900px;
-    height   : 400px;
-
-    margin: 0 auto;
-
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     /* background-color: #00b894; */
-
     z-index: 2;
 }
 
@@ -96,10 +120,15 @@
 
 /* 图片区域内的图片实用object-fit进行自适应大小裁切 */
 .banner section .picture .image {
-    width : 100%;
-    height: 100%;
-
+    width: 100% !important;
+    height: 100% !important;
     object-fit: cover;
+    position: static !important;
+    top: auto !important;
+    background-image: none !important;
+    background-size: auto !important;
+    border: none !important;
+    transition: none !important;
 }
 
 /* 轮播图选择 */
