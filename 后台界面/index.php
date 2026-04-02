@@ -6,6 +6,7 @@ include 'lock.php';
 <head>
 	<meta charset="UTF-8">
 	<title>index</title>
+		<link rel="icon" href="../home/favicon.ico">
 </head>
 <frameset rows='100,*' frameborder='0'>
 	<frame src='top.php' name='top'>

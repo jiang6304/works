@@ -6,6 +6,7 @@ include 'lock.php';
 <head>
 	<meta charset="UTF-8">
 	<title>left</title>
+		<link rel="icon" href="../home/favicon.ico">
 	<style>
 		*{
 			font-family: 微软雅黑;

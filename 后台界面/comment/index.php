@@ -11,6 +11,7 @@ $rst = mysqli_query($conn, $sql);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>评论管理 - 后台管理</title>
+    <link rel="icon" href="../../home/favicon.ico">
     <link rel="stylesheet" href="../public/css/index.css">
     <style>
         a {

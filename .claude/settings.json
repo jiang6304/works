@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xxd \"d:\\\\wamp64\\\\www\\\\biyesheji\\\\后台界面\\\\top.php\")"
+    ]
+  }
+}

@@ -6,6 +6,7 @@ include '../lock.php';
 <head>
 	<meta charset="UTF-8">
 	<title>index</title>
+		<link rel="icon" href="../../home/favicon.ico">
 	<link rel="stylesheet" href="../public/css/index.css">
 </head>
 <body>
